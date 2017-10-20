@@ -3,8 +3,6 @@
 set -e
 errors=0
 
-cd c
-
 # Run unit tests
 make test || {
     echo "'make test' failed"
