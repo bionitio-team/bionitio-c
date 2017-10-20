@@ -1,11 +1,11 @@
 sudo: true
+
 dist: trusty
 
 language: c
 
 before_install:
-  - ./.travis/install-dependencies.sh 
+  - .travis/install-dependencies.sh 
 
 script:
-  - ./.travis/test.sh bionitio-c
-  - ./.travis/unit-test.sh
+  - .travis/unit-test.sh
