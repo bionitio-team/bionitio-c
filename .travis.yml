@@ -9,3 +9,4 @@ before_install:
 
 script:
   - .travis/unit-test.sh
+  - functional_tests/test.sh ./bionitio-c
