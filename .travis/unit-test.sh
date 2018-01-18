@@ -4,7 +4,7 @@ set -e
 errors=0
 
 # Run unit tests
-make test || {
+make check || {
     echo "'make test' failed"
     let errors+=1
 }

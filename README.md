@@ -14,14 +14,21 @@ This program is released as open source software under the terms of [MIT License
 
 # Installing
 
-To build bionitio, run the command:
+To build bionitio, run the commands:
 ```
+% autoreconf --install # first time only
+% ./configure
 % make
 ```
 
 To install the tool, run the command:
 ```
-% make install
+% sudo make install
+```
+
+To generate a buildable distribution, run the command:
+```
+% make dist
 ```
 
 # General behaviour
@@ -145,7 +152,7 @@ Bionitio returns the following exit status values:
 
 You can run the unit tests for bionitio with the following command:
 ```
-% bionitio-test
+% make check
 ```
 
 A set of sample test input files is provided in the `test_data` folder.
