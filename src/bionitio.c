@@ -15,7 +15,7 @@ const int EXIT_INVALID_COMMAND=2;
 const int EXIT_FASTA_FILE_ERROR=3;
 
 const int DEFAULT_MIN_LEN = 0;
-const char *HEADER="FILENAME\tTOTAL\tNUMSEQ\tMIN\tAVG\tMAX";
+const char *HEADER="FILENAME\tNUMSEQ\tTOTAL\tMIN\tAVG\tMAX";
 
 /**
  * print usage information to stdout
