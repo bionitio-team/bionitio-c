@@ -10,6 +10,16 @@ This program is released as open source software under the terms of [MIT License
 
 # Installing
 
+Clone this repository: 
+```
+git clone https://github.com/bionitio-team/bionitio-c
+```
+
+Move into the repository directory:
+```
+cd bionitio-c
+```
+
 To build bionitio, run the commands:
 ```
 % autoreconf --install # first time only
