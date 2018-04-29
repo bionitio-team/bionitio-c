@@ -1,16 +1,19 @@
 To build bionitio, run the commands:
 ```
-% autoreconf --install # first time only
-% ./configure
-% make
+$ autoreconf --install # first time only
+$ ./configure
+$ make
 ```
+
+bionitio is built in the src directory.
   
-To install the tool, run the command:
+Optionally, to install the tool, run the command:
 ```
-% sudo make install        
+$ sudo make install        
 ```
                            
-To generate a buildable distribution, run the command:
+Optionally, to generate a buildable distribution, run the command:
 ```
-% make dist
+$ make dist
 ```
+This builds a tar archive that can be distributed and built elsewhere.
