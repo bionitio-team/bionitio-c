@@ -10,32 +10,25 @@ This program is released as open source software under the terms of [MIT License
 
 # Installing
 
-Clone this repository: 
-```
-git clone https://github.com/bionitio-team/bionitio-c
-```
-
-Move into the repository directory:
-```
-cd bionitio-c
-```
-
 To build bionitio, run the commands:
 ```
-% autoreconf --install # first time only
-% ./configure
-% make
+$ autoreconf --install # first time only
+$ ./configure
+$ make
 ```
+
+bionitio is built in the src directory.
   
-To install the tool, run the command:
+Optionally, to install the tool, run the command:
 ```
-% sudo make install        
+$ sudo make install        
 ```
                            
-To generate a buildable distribution, run the command:
+Optionally, to generate a buildable distribution, run the command:
 ```
-% make dist
+$ make dist
 ```
+This builds a tar archive that can be distributed and built elsewhere.
 
 # General behaviour
 
@@ -64,7 +57,7 @@ In the examples below, `%` indicates the command line prompt.
 Bionitio can display usage information on the command line via the `-h` or `--help` argument:
 
 ```
-% bionitio -h
+$ bionitio -h
 Usage: bionitio [--minlen N] [--version] [--log LOG_FILE] [[FASTA_FILE ...]]
   Print fasta stats
 
@@ -162,14 +155,18 @@ Bionitio returns the following exit status values:
 
 # Error handling
 
-XXX FIXME
+## Invalid input FASTA files
+
+## Incorrect command line arguments
+
+## Memory limits and other resource restrictions
 
 # Testing
 
 ## Unit tests
 
 ```
-% make check
+$ make check
 ```
 
 ## Test suite
