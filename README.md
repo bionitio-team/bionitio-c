@@ -140,6 +140,7 @@ $ bionitio --log bt.log file1.fasta file2.fasta
 # normal bionitio output appears here
 # contents of log file displayed below
 ```
+```
 2018-04-29 15:37:35: bionitio version 0.1 starting.
 2018-04-29 15:37:35: processing 2 file(s) with minlen 0...
 2018-04-29 15:37:35: reading 2 file(s)...
@@ -148,7 +149,7 @@ $ bionitio --log bt.log file1.fasta file2.fasta
 2018-04-29 15:37:35: reading file2.fasta...
 2018-04-29 15:37:35: reading file2.fasta: done
 2018-04-29 15:37:35: reading 2 file(s): done
-
+```
 
 ## Empty files
 
