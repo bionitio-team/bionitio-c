@@ -22,7 +22,9 @@ Move into the repository directory:
 $ cd bionitio-c
 ```
 
-To build bionitio, run the commands:
+To build bionitio, autoreconf, a C compiler (such as gcc), and zlib are required.
+
+Run the commands:
 ```
 $ autoreconf --install # first time only
 $ ./configure
