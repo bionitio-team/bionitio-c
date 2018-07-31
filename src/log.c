@@ -1,3 +1,12 @@
+/*
+ * Module      : log.c
+ * Description : Write a log message to a file 
+ * Copyright   : (c) BIONITIO_AUTHOR, BIONITIO_DATE
+ * License     : BIONITIO_LICENSE
+ * Maintainer  : BIONITIO_EMAIL
+ * Portability : POSIX
+ *
+ */
 
 #include <stdarg.h>
 #include <stdio.h>

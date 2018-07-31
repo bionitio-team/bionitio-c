@@ -1,5 +1,12 @@
-
-// a simple unit testing methodology based on assert
+/*
+ * Module      : log.c
+ * Description : A simple unit testing methodology based on assert
+ * Copyright   : (c) BIONITIO_AUTHOR, BIONITIO_DATE
+ * License     : BIONITIO_LICENSE
+ * Maintainer  : BIONITIO_EMAIL
+ * Portability : POSIX
+ *
+ */
 
 #include <assert.h>
 #include <stdio.h>

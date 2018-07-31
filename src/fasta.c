@@ -1,3 +1,12 @@
+/*
+ * Module      : fasta.c
+ * Description : Process a single FASTA file and compute statistics 
+ * Copyright   : (c) BIONITIO_AUTHOR, BIONITIO_DATE
+ * License     : BIONITIO_LICENSE
+ * Maintainer  : BIONITIO_EMAIL
+ * Portability : POSIX
+ *
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
