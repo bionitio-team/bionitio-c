@@ -6,10 +6,7 @@ language: c
 
 before_install:
   - docker build -t bionitio-c .
-    # - .travis/install-dependencies.sh 
 
 script:
-  #- ./functional_tests/bionitio-test.sh -p bionitio -d functional_tests/test_data
-  #- .travis/unit-test.sh
   - docker run --entrypoint /bionitio/.travis/unit-test.sh bionitio-c
   - docker run --entrypoint /bionitio/functional_tests/bionitio-test.sh bionitio-c -p bionitio -d /bionitio/functional_tests/test_data -v
