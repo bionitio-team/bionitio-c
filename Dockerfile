@@ -8,5 +8,3 @@ RUN autoreconf --install
 RUN ./configure
 RUN make
 RUN make install
-
-ENTRYPOINT ["bionitio"]
